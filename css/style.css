@@ -1,0 +1,8 @@
+html, body, #intro {
+    height: 100vh;
+}
+
+#intro {
+    background: url(../img/photo.jpg);
+    background-size: cover;
+}

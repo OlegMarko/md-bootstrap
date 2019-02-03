@@ -18,17 +18,204 @@
 
 <body>
 
-  <!-- Start your project here-->
-  <div style="height: 100vh">
-    <div class="flex-center flex-column">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      <div class="container">
+        <a href="#" class="navbar-brand">Navbar</a>
 
-      <h1 class="text-hide animated fadeIn mb-4" style="background-image: url('https://mdbootstrap.com/img/logo/mdb-transparent-250px.png'); width: 250px; height: 90px;">MDBootstrap</h1>
-      <h5 class="animated fadeIn mb-3">Thank you for using our product. We're glad you're with us.</h5>
+        <button class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#main-nav"
+                aria-controls="main-nav"
+                aria-expanded="false"
+                aria-label="Toggle">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <p class="animated fadeIn text-muted">MDB Team</p>
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="navbar-nav mr-auto smooth-scroll">
+            <li class="nav-item">
+              <a href="#intro" class="nav-link waves-effect waves-light">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link waves-effect waves-light">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link waves-effect waves-light">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#news" class="nav-link waves-effect waves-light">News</a>
+            </li>
+            <li class="nav-item">
+              <a href="#support" class="nav-link waves-effect waves-light">Support</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav nav-flex icons">
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect waves-light">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect waves-light">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect waves-light">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="intro" class="view">
+      <div class="mask rgba-black-strong">
+        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+          <div class="row d-flex-justify-content-center text-center">
+            <div class="col-md-12">
+              <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">
+                Material Bootstrap
+              </h2>
+
+              <hr class="hr-light">
+
+              <h4 class="white-text my-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, obcaecati.
+              </h4>
+
+              <button class="btn btn-outline-white waves-effect waves-light">Read More <i class="fa fa-book"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <!-- /Start your project here-->
+  </header>
+
+  <main class="mt-5">
+    <div class="container">
+      <section id="best-features" class="text-center">
+        <h2 class="mb-5 font-weight-bold">Best Features</h2>
+
+        <div class="row d-flex justify-content-center mb-4">
+          <div class="col-md-8">
+            <p class="grey-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iure laboriosam, obcaecati quasi quis saepe sint soluta vel veritatis voluptatum.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 mb-5">
+            <i class="fab fa-amazon fa-4x grey-text"></i>
+            <h4 class="my-4 font-weight-bold">Archive</h4>
+            <p class="grey-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur distinctio ducimus magni quos rerum sequi?
+            </p>
+          </div>
+          <div class="col-md-4 mb-5">
+            <i class="fab fa-apple fa-4x grey-text"></i>
+            <h4 class="my-4 font-weight-bold">Archive</h4>
+            <p class="grey-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur distinctio ducimus magni quos rerum sequi?
+            </p>
+          </div>
+          <div class="col-md-4 mb-5">
+            <i class="fab fa-bitcoin fa-4x grey-text"></i>
+            <h4 class="my-4 font-weight-bold">Archive</h4>
+            <p class="grey-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur distinctio ducimus magni quos rerum sequi?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-5">
+
+      <section id="examples" class="text-center">
+        <h2 class="mb-5 font-weight-bold">Examples</h2>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="view overlay zoom">
+              <img src="./img/photo-2.jpeg" alt="icon" class="img-fluid">
+              <div class="mask flex-center"></div>
+            </div>
+
+            <h4 class="m-4 font-weight-bold">Heading</h4>
+
+            <p class="grey-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam minus reprehenderit voluptatibus.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="view overlay">
+              <img src="./img/photo-2.jpeg" alt="icon" class="img-fluid">
+              <div class="mask flex-center rgba-red-strong"></div>
+            </div>
+
+            <h4 class="m-4 font-weight-bold">Heading</h4>
+
+            <p class="grey-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam minus reprehenderit voluptatibus.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="view hoverable">
+              <img src="./img/photo-2.jpeg" alt="icon" class="img-fluid">
+              <div class="mask flex-center"></div>
+            </div>
+
+            <h4 class="m-4 font-weight-bold">Heading</h4>
+
+            <p class="grey-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam minus reprehenderit voluptatibus.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="view hoverable">
+              <img src="./img/photo-2.jpeg" alt="icon" class="img-fluid">
+              <div class="mask flex-center"></div>
+            </div>
+
+            <h4 class="m-4 font-weight-bold">Heading</h4>
+
+            <p class="grey-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam minus reprehenderit voluptatibus.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="view hoverable">
+              <img src="./img/photo-2.jpeg" alt="icon" class="img-fluid">
+              <div class="mask flex-center"></div>
+            </div>
+
+            <h4 class="m-4 font-weight-bold">Heading</h4>
+
+            <p class="grey-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam minus reprehenderit voluptatibus.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="view hoverable">
+              <img src="./img/photo-2.jpeg" alt="icon" class="img-fluid">
+              <div class="mask flex-center"></div>
+            </div>
+
+            <h4 class="m-4 font-weight-bold">Heading</h4>
+
+            <p class="grey-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam minus reprehenderit voluptatibus.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
 
   <!-- SCRIPTS -->
   <!-- JQuery -->
