@@ -10,7 +10,6 @@ https://mdbootstrap.com/docs/jquery/getting-started/download/
 
 Tutorials:
 MDB-Bootstrap: https://mdbootstrap.com/education/bootstrap/
-MDB-Wordpress: https://mdbootstrap.com/education/wordpress/
 
 Templates:
 https://mdbootstrap.com/templates/
